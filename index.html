@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="caesar.css" media="screen" />
+    <script type="text/javascript" src="caesar.js"></script>
+    <title>caesar cipher</title>
+  </head>
+
+  <body>
+    <div id="txt">Type the text to encode/decode:</div>
+    <div id="Form1">
+      <input type="text" name="input" id="form1input" />
+    </div>
+
+    <button
+      type="submit"
+      id="button"
+      value="Encode"
+      onclick="caesar(document.querySelector('input[name=encode]:checked').value)"
+    >
+      Start Now
+    </button>
+
+    <div id="Form4">
+      key
+      <input type="text" name="input4" id="form4input" />
+    </div>
+    <form id="form3">
+      <input name="encode" type="radio" value="encode" id="encode" /> encode
+      <input name="encode" type="radio" value="decode" /> decode
+    </form>
+    <br /><br />
+
+    <div id="txt">This is the encoded/decoded text:</div>
+    <form id="Form2">
+      <input type="text" class="input2" name="output" id="form2text" />
+    </form>
+  </body>
+</html>

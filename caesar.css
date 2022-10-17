@@ -1,0 +1,106 @@
+/* the border around the site */
+body {
+  border: 20px solid powderblue;
+  background-image: "/caesar2.jpg";
+  margin: 80px;
+  align-content: center;
+  align-content: center;
+  height: 400px;
+  width: 1000px;
+}
+
+#button {
+  background-color: cornflowerblue;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium";
+  width: 100px;
+  height: 30px;
+  align-content: center;
+  position: relative;
+  left: 2%;
+  top: 25%;
+}
+
+#txt {
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium";
+  width: 300px;
+  height: 20px;
+  align-content: center;
+  position: relative;
+  left: 30%;
+}
+
+#form1input {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 300px;
+  height: 60px;
+  align-content: center;
+  word-wrap: break-word;
+  position: relative;
+  left: 30%;
+  border-style: double;
+  border: solid;
+}
+
+#form4input {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 45px;
+  height: 20px;
+  position: relative;
+  left: 1%;
+  bottom: 30%;
+  border: solid;
+}
+
+#form2text {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 300px;
+  height: 60px;
+  word-wrap: normal;
+  align-content: center;
+  position: relative;
+  left: 20%;
+  border: solid;
+}
+
+#Form1 {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 1000px;
+  height: 20px;
+  align-content: center;
+  position: relative;
+}
+
+#Form2 {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 1500px;
+  height: 20px;
+  align-items: center;
+  position: relative;
+}
+
+#Form3 {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 1500px;
+  height: 20px;
+  align-items: center;
+  position: relative;
+}
+
+#Form4 {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 1500px;
+  height: 30px;
+  align-items: center;
+  position: relative;
+  left: 2%;
+  top: 0%;
+}
